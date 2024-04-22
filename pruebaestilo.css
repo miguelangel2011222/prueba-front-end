@@ -1,0 +1,93 @@
+body{margin: 0px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+nav{background-color: purple;;}
+
+.estilo{background-color: purple;
+border-radius: 5px;
+margin: 10px;
+text-align: center;}
+
+.estilo2{color: white;}
+
+ul{list-style-type: none;}
+
+li{display: inline;
+margin: 10px;
+padding: 0px;}
+
+label[for="nn"]:hover{transform: translateX(-50%);}
+
+
+a{text-decoration: none;
+color:white}
+
+.cl{padding:10px ;}
+
+p{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+
+.caja1{background-color: red;
+width: 30vh;
+height: 20vh;
+border-radius: 10px;
+position: static;
+display: inline-block;
+text-align: center;
+margin: 10px;}
+
+.caja1:hover{scale: 1.1; transition: 1s;}
+
+.caja2{background-color: blue;
+    width: 30vh;
+    height: 20vh;
+    border-radius: 10px;
+    text-align: center;
+    position: static;
+    display: inline-block;
+    margin: 10px;
+    
+}
+.caja2:hover{scale: 1.1; transition: 1s;}
+
+.caja3{background-color: green;
+    width: 30vh;
+    height: 20vh;
+    border-radius: 10px;
+    text-align: center;
+    position: static;
+    display: inline-block;
+    margin: 10px;
+}
+
+
+    .caja3:hover{scale: 1.1; transition: 1s;}
+
+label[for="zz"]:hover{color: aqua;}
+
+label[for="aa"]:hover{color: orange;font-size: 30px;transition: 1s;}
+
+label[for="zz"]{font-size: 10px;}
+
+
+@media (max-width:900px) {nav{background-color: blue}
+label[for="nn"]{display: none;}
+li{display: block;
+text-align: start;}
+
+.caja1{width: 100vh;
+text-align: center;
+margin: 10px;}
+
+.caja2{width: 100vh;
+text-align: center;
+margin: 10px;}
+
+.caja3{width: 100vh;
+text-align: center;
+margin: 10px;
+}
+
+.estilo{background-color: white;}
+    
+}
